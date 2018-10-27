@@ -1,0 +1,20 @@
+{
+    "name": "eagle/",
+    "description": "a small Todo App",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huyvh",
+            "email": "huyvh19@gmail.com"
+        }
+    ],
+    "autoload":{
+        "prs-4":{
+            "Backend\\":""
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support":"~5"
+    }
+}
