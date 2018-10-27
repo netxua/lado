@@ -1,0 +1,13 @@
+1. install composer
+        composer install
+2. dump composer:
+        composer dump-autoload
+3. copy file config from packages to app
+        php artisan vendor:publish --force
+4. first run project create database
+        php artisan migrate
+
+
+php artisan vendor:publish --provider="igaster\laravelTheme\themeServiceProvider
+php artisan key:generate
+php artisan cache:clear
